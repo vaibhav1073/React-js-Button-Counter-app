@@ -1,0 +1,39 @@
+.main{
+    background-color: rgb(33, 33, 33);
+    display: flex;
+    width: 80vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 05vh;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+    border-radius: 05px ;
+}
+.clickButton{
+    background-color: rgb(255, 0, 230);
+    color: rgb(0, 0, 0);
+    width: 40vw;
+    height: 03rem;
+    border: 0px;
+    border-radius: 05px;
+    margin-top: 10px;
+    text-decoration:solid;
+    font-size: large;
+}
+.clickButton:hover{
+    background-color: pink;
+    font-size: larger;
+}
+.resetButton{
+    background-color: rgba(255, 0, 230, 0.738);
+    color: rgb(0, 0, 0);
+    width: 20vw;
+    height: 03rem;
+    border: 0px;
+    border-radius: 05px;
+    margin-bottom: 10px;
+    text-decoration:solid;
+    font-size: large;
+}
+
